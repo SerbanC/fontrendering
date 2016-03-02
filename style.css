@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'AbrilFatFace';
+  src:  url('fonts/AbrilFatface-Regular.woff2') format('woff2'),
+        url('fonts/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src:  url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src:  url('fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src:  url('fonts/Raleway-Medium.woff2') format('woff2'),
+        url('fonts/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src:  url('fonts/Raleway-MediumItalic.woff2') format('woff2'),
+        url('fonts/Raleway-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+}
+
+body {
+  /*font: 24px 'PlayfairDisplay';*/
+  font-size: 36px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.no-kerning {
+  font-kerning: none;
+}
+
+.no-ligatures {
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.optimize {
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font: normal 48px 'AbrilFatFace';
+  color: #999;
+  margin: 2em 0;
+  text-align: center;
+}
+
+h1 small {
+  font-family: 'Raleway';
+  font-weight: normal;
+  display: block;
+  font-size: 24px;
+  color: #777;
+  padding: .5em;
+  background-color: #DADADA;
+}
+
+p {
+  margin: 0 0 .5em;
+  padding: 0 0 .5em;
+  border-bottom: 1px solid #DADADA;
+}
+
+.font1 {
+  font-family: 'AbrilFatFace';
+}
+
+.font2 {
+  font-family: 'PlayfairDisplay';
+}
+
+.font3 {
+  font-family: 'Raleway';
+}
+
+.em {
+  font-style: italic;
+}
